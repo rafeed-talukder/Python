@@ -1,0 +1,78 @@
+
+
+
+1. pip install virtualenv   
+
+                                                                      "creat a virtual envaronment for django in your PC"
+
+2. cd Desktop         
+       
+                                                                      "go to desktop or any drive where we want to make django folder"
+
+3. virtualenv django-env  
+  
+                                                                      "virtualenv make a folder in the location of the directory"
+
+                                                           {"when complete ,it will show a msg like Installing setuptools, pip, wheel...done."} 
+
+4. cd django-env    
+         
+                                                                      "go to the django folder, in django here have a Script folder & have a activate file"
+
+5. cd Scripts    
+            
+                                                                      "go to the scripts folder to active the ACTIVATE file"
+
+6. C:\Users\USER\Desktop\django-env\Scripts> activate  
+ 
+          
+                                                                      "this will active the file"
+
+                                                                      "after that we will see cmd like:-"
+
+7. (django-env) (base) C:\Users\USER\Desktop\django-env\Scripts>cd..  
+
+   
+                                                                      "use cd.. to go to the main folder"  
+                             
+                                                                      "now it is become ready for install django"
+ 
+8. (django-env) (base) C:\Users\USER\Desktop\django-env>pip install django 
+
+
+                                                                       "wait some time for install django "
+
+                                                                       "when install  django it will show,Successfully installed django-2.0.7 pytz-2018.5,"
+
+9. (django-env) (base) C:\Users\USER\Desktop\django-env>django-admin startproject new_django 
+
+                                                                        "new_django is a folder name of our project name."
+
+10. (django-env) (base) C:\Users\USER\Desktop\django-env>cd new_django
+
+(django-env) (base) C:\Users\USER\Desktop\django-env\new_django>dir
+ Volume in drive C is Windows 10
+ Volume Serial Number is 144F-303A
+
+ Directory of C:\Users\USER\Desktop\django-env\new_django
+
+07/15/2018  08:43 PM    <DIR>          .
+07/15/2018  08:43 PM    <DIR>          ..
+07/15/2018  08:43 PM               557 manage.py
+07/15/2018  08:43 PM    <DIR>          new_django
+               1 File(s)            557 bytes
+               3 Dir(s)  187,844,112,384 bytes free
+             
+                                                                         "go to the project and check the directories.(manage.py)* is mandatory ."
+
+11. (django-env) (base) C:\Users\USER\Desktop\django-env\new_django>python manage.py runserver   
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+Django version 2.0.7, using settings 'new_django.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+                                 
+
+                                                        #--"run the project  at http://127.0.0.1:8000/ "
